@@ -12,7 +12,7 @@ A REST api that returns riddles along with their answers
 > answer: string
 > }
 
-- [ ] Define libraries and install dependencies.
+- [x] Define libraries and install dependencies.
 - [ ] Gather a minimun of 3 riddles to return.
 - [ ] Build basic CRUD functionality.
 - [ ] Define further steps for Express.

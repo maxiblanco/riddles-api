@@ -1,0 +1,38 @@
+{
+  "name": "riddles-api",
+  "version": "1.0.0",
+  "description": "A REST api that returns riddles along with their answers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxiblanco/riddles-api.git"
+  },
+  "keywords": [
+    "riddles",
+    "riddle",
+    "REST",
+    "api",
+    "questions"
+  ],
+  "author": "Maximiliano Blanco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxiblanco/riddles-api/issues"
+  },
+  "homepage": "https://github.com/maxiblanco/riddles-api#readme",
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.20"
+  }
+}
