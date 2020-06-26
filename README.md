@@ -4,15 +4,23 @@ A REST api that returns riddles along with their answers.
 
 ## How to use the api
 
-### Get all riddles
+#### Get all riddles
 
 > GET http://localhost:3000/riddles
 
-### Get a single riddle
+#### Get a single riddle
 
 > GET http://localhost:3000/riddles/:id
 
-### Post a single riddle
+> {
+> \_id: string,
+> name: string,
+> riddle: string,
+> answer: string,
+> \_\_v: number
+> }
+
+#### Post a single riddle
 
 > POST http://localhost:3000/riddles
 
@@ -26,11 +34,11 @@ Example of how to post a riddle.
 }
 ```
 
-### Delete a single riddle
+#### Delete a single riddle
 
 > DELETE http://localhost:3000/riddles/:id
 
-### Update a single riddle
+#### Update a single riddle
 
 PATCH http://localhost:3000/riddles/:id
 
@@ -45,17 +53,12 @@ PATCH http://localhost:3000/riddles/:id
 - [x] Working riddle-api
 - [x] Create github repository and README.me.
 - [x] Define json data structure.
-
-> {
-> \_id: string,
-> name: string,
-> riddle: string,
-> answer: string
-> }
-
 - [x] Define libraries and install dependencies.
-- [ ] Gather a minimun of 10 riddles to return.
 - [x] Build basic CRUD functionality.
-- [ ] Define further steps for Express.
+- [ ] Gather a minimun of 10 riddles to return.
+- [ ] Build basic tests
+- [ ] Add Language to get request.
+- [ ] Add Spanish riddles.
+- [ ] Research and incorporate best practices.
 - [ ] Secure the api
-- [ ] Build tests
+- [ ] Define further steps for Express.
