@@ -4,8 +4,7 @@
   "description": "A REST api that returns riddles along with their answers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "devStart": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -27,12 +26,14 @@
   "devDependencies": {
     "eslint": "^7.3.1",
     "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.21.2",
     "nodemon": "^2.0.4",
     "prettier": "^2.0.5"
   },
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.9.20"
+    "mongoose": "^5.9.20",
+    "dotenv": "^8.2.0"
   }
 }
